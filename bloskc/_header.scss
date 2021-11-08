@@ -1,0 +1,36 @@
+.header {
+  background-color: #ffffff;
+ &__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ &__list {
+   display: flex;
+   list-style-type: none;
+ }
+
+ &__item {
+   margin-left: 55px;
+ }
+
+ &__linc {
+   text-decoration: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+ }
+
+ &__right {
+   display: flex;
+   align-items: center;
+ }
+
+ &__right--img {
+   margin-right: 5px;
+ }
+}
